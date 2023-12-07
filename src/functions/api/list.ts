@@ -3,10 +3,13 @@ export async function onRequest(context: any) {
         request,
         env,
         params,
-        waitUntil,
-        next,
+        // waitUntil,
+        // next,
         data
     } = context;
 
-    console.log(env)
+    console.log("env"+env)
+    console.log("data"+data)
+    console.log("request"+request)
+    console.log("params"+params)
 }
